@@ -17,10 +17,11 @@ Descrevo isso me baseando no sistema que uso, Linux
 
 
 > Utilize pip, para baixar essas dependencias do requierements.txt (com o ambiente virtual ativo)
+
 . pip install -r requirements.txt
 
 E então:
-> ./manage.py runserver
+- ./manage.py runserver
 
 # Decisões e funcionalidades
 - Uma nav
