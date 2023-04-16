@@ -3,13 +3,13 @@
  # Sobre o projeto!
  ## Currículo Django
 
-Projeto desenvolvido com a intenção de criar do zero uma aplicação Django que utilize um banco de dados
+Projeto desenvolvido com a intenção de criar do zero uma aplicação Django que utilize banco de dados;
 
 # Como rodar
 Descrevo isso me baseando no sistema que uso, Linux
 - Tenha em sua máquina python e virtualev
-. pip install python
-. pip install virtualenv
+> pip install python
+> pip install virtualenv
 
 - Crie um ambiente virtual(não queremos que dependencias sejam instaladas em sua máquina, vá por mim)
 
@@ -17,10 +17,10 @@ Descrevo isso me baseando no sistema que uso, Linux
 
 
 - Utilize pip, para baixar essas dependencias do requierements.txt (com o ambiente virtual ativo)
-- pip install -r requirements.txt
+> pip install -r requirements.txt
 
 E então:
-./manage.py runserver
+> ./manage.py runserver
 
 # Decisões e funcionalidades
 - Uma nav
