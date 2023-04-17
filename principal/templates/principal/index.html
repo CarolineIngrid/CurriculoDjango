@@ -1,12 +1,62 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Currículo</title>
 </head>
 <body>
-    <h2> teste </h2>
+    <header>
+            <h1> Ingrid Caroline </h1>
+            <h2> Desenvolvedora de Software </h2>
+            <img id="star" src="{% static "imagens/bonbon-four-pointed-star-3.png" %}"/>
+    </header>
+    
+
+    <main>
+        <div>
+            <h4> Bem-vinda(o) ao meu perfil! </h4>
+
+            <p>SOBRE MIM:</p> 
+            <p> Graduanda em Análise e Desenvolvimento de Sistemas, atuo como desenvolvedora fullstack, 
+            apaixonada por desafios, sempre me interessei por tecnologia portanto decidi investir em uma paixão 
+            que estava adormecida desde os meus 16 anos. Com foco no desenvolvimento web, trabalhei em projetos reais na Buser, 
+            com a aplicação de cupons personalidados na home por API Mock usando GeoLocalização, mudancas na página de checkout, home e etc
+            Sempre lidei com pessoas, muitos me consideram, focada, calma e persistente, sempre com vontade de aprender pois também sou ambiciosa. </p>
+            
+        </div>
+
+        <div>
+            
+            Formação Educacional
+2022-presente
+ANÁLISE EM DESENVOLVIMENTO DE SISTEMAS -
+DESCOMPLICA
+tecnólogo
+2017-presente
+LETRAS - UNIFESP
+
+
+IMAGEM AQUI MEIOO
+
+            Essas são algumas das minhas habilidades
+            Habilidades
+            Inglês avançado;
+            HTML e CSS;
+            JavaScript e VUEJS;
+            Python e Django;
+            Docker;
+            Git e GitHub;
+            Noções básicas de Banco de dados e SQL;
+            Lógica de Programação;
+            Photoshop;
+            Pacote Office;
+        </div>
+        <img src="{% static "imagens/bonbon-web-development-1.png" %}"/>
+    </main>
+    
 </body>
 </html>

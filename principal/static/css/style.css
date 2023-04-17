@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@600&display=swap');
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color:#bf2026;
+    height: 500px;
+    background-color: #ebdbda;
+    font-family: 'Chivo Mono', monospace;
+    
+}
+
+/* ------------ IMAGENS ------------- */
+#star{
+    width: 126px;
+    height: 126px;
+}
