@@ -11,36 +11,39 @@
 <body>
     <header>
             <h1> Ingrid Caroline </h1>
-            <h2> Desenvolvedora de Software </h2>
+            <h2> < Desenvolvedora de Software /> </h2>
             <img id="star" src="{% static "imagens/bonbon-four-pointed-star-3.png" %}"/>
     </header>
     
 
     <main>
-        <div>
-            <h4> Bem-vinda(o) ao meu perfil! </h4>
-
-            <p>SOBRE MIM:</p> 
-            <p> Graduanda em Análise e Desenvolvimento de Sistemas, atuo como desenvolvedora fullstack, 
-            apaixonada por desafios, sempre me interessei por tecnologia portanto decidi investir em uma paixão 
-            que estava adormecida desde os meus 16 anos. Com foco no desenvolvimento web, trabalhei em projetos reais na Buser, 
-            com a aplicação de cupons personalidados na home por API Mock usando GeoLocalização, mudancas na página de checkout, home e etc
-            Sempre lidei com pessoas, muitos me consideram, focada, calma e persistente, sempre com vontade de aprender pois também sou ambiciosa. </p>
+        <div class="sobre">
             
+            <div>
+            <h4> BEM VINDA(O) AO MEU PERFIL! </h4>
+                <p>SOBRE MIM:</p> 
+                <p class="texto_sobre"> Graduanda em Análise e Desenvolvimento de Sistemas, atuo como desenvolvedora fullstack, 
+                    apaixonada por desafios, sempre me interessei por tecnologia portanto decidi investir em uma paixão 
+                    que estava adormecida desde os meus 16 anos. Com foco no desenvolvimento web, trabalhei em projetos reais, 
+                    como a aplicação de cupons personalidados por API Mock usando GeoLocalização, mudanças em checkout, home e etc.
+                    Sempre lidei com pessoas, muitos me consideram, focada, calma e persistente, sempre com vontade de aprender pois também sou ambiciosa. 
+                </p>
+            </div>
+            <img src="{% static "imagens/bonbon-web-development-1.png" %}"/>
         </div>
+    </main>
+        
+    <div id="formacao">
+        <h4> Formação Educacional </h4>
+            2022-presente
+            ANÁLISE EM DESENVOLVIMENTO DE SISTEMAS -
+            DESCOMPLICA
+            tecnólogo
+            2017-presente
+            LETRAS - UNIFESP
 
-        <div>
-            
-            Formação Educacional
-2022-presente
-ANÁLISE EM DESENVOLVIMENTO DE SISTEMAS -
-DESCOMPLICA
-tecnólogo
-2017-presente
-LETRAS - UNIFESP
 
-
-IMAGEM AQUI MEIOO
+                IMAGEM AQUI MEIOO
 
             Essas são algumas das minhas habilidades
             Habilidades
@@ -55,8 +58,22 @@ IMAGEM AQUI MEIOO
             Photoshop;
             Pacote Office;
         </div>
-        <img src="{% static "imagens/bonbon-web-development-1.png" %}"/>
-    </main>
-    
+
+        <footer>
+                ENTRE EM CONTATO
+
+               
+                    <div id="modal" class="modal">
+                        <div class="modal-content">
+                          <span class="close">&times;</span>
+                            <div id="form">
+                                <form action="." method="POST">
+                                    {% csrf_token %}
+                                    {{ form.as_p }}
+                                    <button type="submit" value="Salvar" id="buttonForm">Enviar</button>
+                                </form> 
+                            </div>
+                  
+        </footer>
 </body>
 </html>

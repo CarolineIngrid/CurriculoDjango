@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@600&family=Righteous&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 /* reset */
 *{
     padding: 0;
@@ -6,13 +7,34 @@
     box-sizing: border-box;
 }
 
+main{
+    /* background-image: url('/static/imagens/fundoQuadriculado.jpg'); */
+    background-color: #feead9;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Slabo', serif;
+    height: 50vh;
+}
+
+#formacao{
+    height: 50vh;
+}
+
+.sobre{
+    display: flex;
+}
+
+footer{
+    height: 40vh;
+}
 header{
     display: flex;
+    height: 100vh;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     color:#bf2026;
-    height: 500px;
     background-color: #ebdbda;
     font-family: 'Chivo Mono', monospace;
     
@@ -20,6 +42,19 @@ header{
 
 /* ------------ IMAGENS ------------- */
 #star{
-    width: 126px;
-    height: 126px;
+    margin-top: 2%;
+    width: 80px;
+    height: 80px;
 }
+
+/* ---------- TIPOGRAFIA ----------- */
+h4{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.texto_sobre{
+    margin: 12px;
+    padding: 16px;
+    text-align: justify;
+}
+
