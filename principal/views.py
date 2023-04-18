@@ -1,6 +1,5 @@
 from django.shortcuts import render
 from .forms import ContatoForm
-from django.http import HttpResponse
 
 def Info(request):
     if request.method == "GET":
@@ -12,13 +11,12 @@ def Info(request):
     else:
         form = ContatoForm(request.POST)
         if form.is_valid():
-            cliente = form.save()
+            contato = form.save()
             form = ContatoForm()
-        else:
-            context = {
-            'form': form
-        }
-            return render(request, 'principal/index.html', context=context)
+        context = {
+        'form': form
+    }
+    return render(request, 'principal/index.html', context=context)
 
 
 
