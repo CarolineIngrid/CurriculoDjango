@@ -5,7 +5,7 @@
 
 Projeto desenvolvido com a intenção de criar do zero uma aplicação Django com templates, que utilize banco de dados ao final no footer para guardar as mensagens de contato;
 
-# Como rodar
+## Como rodar
 Descrevo isso me baseando no sistema que uso, Linux
 > Tenha em sua máquina python e virtualev
 - pip install python
@@ -36,7 +36,7 @@ E então:
 - Depois front-end, usando html e css, dentro de um template 🔫
 - Olhei alguns projetos no behance para me inspirar.
 
-# Visualizar banco de dados sem o Django-Admin
+## Visualizar banco de dados sem o Django-Admin
 
 Com o ambiente virtual ativo vá no terminal e use os seguintes comandos:
 
@@ -45,10 +45,10 @@ Com o ambiente virtual ativo vá no terminal e use os seguintes comandos:
 - contato = Contato.objects.all()
 - print(contato)
 
-# Visualizar banco de dados com Django-Admin
+## Visualizar banco de dados com Django-Admin
 
 - admi
 - admi
-# Future Code
+## Future Code
 
 - Melhorar front-end
