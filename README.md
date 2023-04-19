@@ -28,7 +28,7 @@ E então:
 - ./manage.py runserver
 
 ## Decisões e funcionalidades
-- Uma nav;
+
 - Dados principais no main;
 - Forms com banco de dados;
 - Footer;
@@ -36,3 +36,16 @@ E então:
 - Depois front-end, usando html e css, dentro de um template 🔫
 - Olhei alguns projetos no behance para me inspirar.
 
+# Visualizar banco de dados
+
+Com o ambiente virtual ativo vá no terminal e use os seguintes comandos:
+
+- python manage.py shell
+- from principal.models import Contato
+- contato = Contato.objects.all()
+- print(contato)
+
+# Future Code
+
+- Configurar DJANGO-ADMIN
+- Melhorar front-end

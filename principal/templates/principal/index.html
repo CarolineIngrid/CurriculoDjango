@@ -35,37 +35,40 @@
         
     <div id="formacao">
         <h4> Formação Educacional </h4>
-            2022-presente
-            ANÁLISE EM DESENVOLVIMENTO DE SISTEMAS -
-            DESCOMPLICA
-            tecnólogo
-            2017-presente
-            LETRAS - UNIFESP
-
-
-                IMAGEM AQUI MEIOO
-
-            Essas são algumas das minhas habilidades
-            Habilidades
-            Inglês avançado;
-            HTML e CSS;
-            JavaScript e VUEJS;
-            Python e Django;
-            Docker;
-            Git e GitHub;
-            Noções básicas de Banco de dados e SQL;
-            Lógica de Programação;
-            Photoshop;
-            Pacote Office;
+        <ul>
+            <li>
+                2022-presente
+                ANÁLISE EM DESENVOLVIMENTO DE SISTEMAS -
+                DESCOMPLICA
+                tecnólogo
+                2017-presente
+                LETRAS - UNIFESP
+    
+    
+                    IMAGEM AQUI MEIOO
+    
+               <h4> Essas são algumas das minhas habilidades </h4>
+            </ul>
+            <ul>
+                <li>Inglês avançado;</li>
+                <li>HTML e CSS;</li>
+                <li>JavaScript e VUEJS;</li>
+                <li>Python e Django;</li>
+                <li>Docker</li>
+                <li>Git e GitHub;</li>
+                <li>Noções básicas de Banco de dados e SQL;</li>
+                <li>Lógica de Programação;</li>
+                <li>Photoshop;</li>
+                <li>Pacote Office;</li>
+                <li></li>
+                <li></li>
+            </ul>
         </div>
 
         <footer>
-                ENTRE EM CONTATO
-
-               
+            <h4>ENTRE EM CONTATO</h4>
                     <div id="modal" class="modal">
                         <div class="modal-content">
-                          <span class="close">&times;</span>
                             <div id="form">
                                 <form action="." method="POST">
                                     {% csrf_token %}
@@ -73,7 +76,10 @@
                                     <button type="submit" value="Salvar" id="buttonForm">Enviar</button>
                                 </form> 
                             </div>
-                  
+                        </div>
+                    </div>    
         </footer>
+
+    <script src="{% static 'js/script.js' %}"></script>
 </body>
 </html>

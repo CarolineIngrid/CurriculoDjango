@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from .forms import ContatoForm
+from .models import Contato
 
 def Info(request):
     if request.method == "GET":
@@ -11,8 +12,11 @@ def Info(request):
     else:
         form = ContatoForm(request.POST)
         if form.is_valid():
+            contato = Contato.objects.filter()
+            contato.status = True
             contato = form.save()
             form = ContatoForm()
+
         context = {
         'form': form
     }
