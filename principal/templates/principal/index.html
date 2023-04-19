@@ -33,51 +33,56 @@
         </div>
     </main>
         
-    <div id="formacao">
-        <h4> Formação Educacional </h4>
-        <ul>
-            <li>
-                2022-presente
-                ANÁLISE EM DESENVOLVIMENTO DE SISTEMAS -
-                DESCOMPLICA
-                tecnólogo
-                2017-presente
-                LETRAS - UNIFESP
-    
-    
-                    IMAGEM AQUI MEIOO
-    
-               <h4> Essas são algumas das minhas habilidades </h4>
-            </ul>
+    <aside>
+        <div id="formacao">
+            <h4> Formação Educacional </h4>
             <ul>
-                <li>Inglês avançado;</li>
-                <li>HTML e CSS;</li>
-                <li>JavaScript e VUEJS;</li>
-                <li>Python e Django;</li>
-                <li>Docker</li>
-                <li>Git e GitHub;</li>
-                <li>Noções básicas de Banco de dados e SQL;</li>
-                <li>Lógica de Programação;</li>
-                <li>Photoshop;</li>
-                <li>Pacote Office;</li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
+                <li>
+                    2022/presente -
+                    ANÁLISE EM DESENVOLVIMENTO DE SISTEMAS -
+                    DESCOMPLICA
+
+                <li> 2017/presente - LETRAS - UNIFESP
+                </li>
+        
+                        <br>
+        
+                <h4> Essas são algumas das minhas habilidades </h4>
+                </ul>
+                <ul>
+                    <li>Inglês avançado;</li>
+                    <li>HTML e CSS;</li>
+                    <li>JavaScript e VUEJS;</li>
+                    <li>Python e Django;</li>
+                    <li>Docker</li>
+                    <li>Git e GitHub;</li>
+                    <li>Noções básicas de Banco de dados e SQL;</li>
+                    <li>Lógica de Programação;</li>
+                    <li>Photoshop.</li>
+                </ul>
+                <br>
+                <h4> Histórico Profissional </h4>
+                <ul>
+                   <h5> BUSER - 2022/2023 </h5>
+                   <li> Estágio em Desenvolvimento de Software com foco em desenvolvimento
+                    web full-stack visando melhorar a eficiência operacional do sistema de
+                    backoffice da empresa, utilizando-se da linguagem de programação
+                    JavaScript para o front-end, juntamente com o framework VueJS, e
+                    Python para o back-end, utilizando o framework Django com bancos de
+                    dados PostgreSQL, assim como a participação em cerimônias de produto,
+                    como daily, meetings, alinhamentos, refining e retrospectivas
+                   </li>
+                </ul>
+            </div>
+    </aside>
 
         <footer>
-            <h4>ENTRE EM CONTATO</h4>
-                    <div id="modal" class="modal">
-                        <div class="modal-content">
-                            <div id="form">
-                                <form action="." method="POST">
-                                    {% csrf_token %}
-                                    {{ form }}
-                                    <button type="submit" value="Salvar" id="buttonForm">Enviar</button>
-                                </form> 
-                            </div>
-                        </div>
-                    </div>    
+            <h3>ENTRE EM CONTATO</h3>
+                <form action="." method="POST">
+                    {% csrf_token %}
+                    {{ form }}
+                    <button type="submit" value="Salvar" id="buttonForm">Enviar</button>
+                </form>  
         </footer>
 
     <script src="{% static 'js/script.js' %}"></script>

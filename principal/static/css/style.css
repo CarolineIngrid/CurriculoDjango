@@ -10,11 +10,15 @@
 main{
     background-color: #feead9;
     font-family: 'Slabo', serif;
-    height: 50vh;
+    height: 40vh;
 }
 
 #formacao{
-    height: 50vh;
+    height: 60vh;
+}
+
+aside{
+    background-color: #947371;
 }
 
 .sobre{
@@ -22,13 +26,17 @@ main{
 }
 
 footer{
+    padding-top: 4%;
+    text-align: center;
     height: 30vh;
     background-image: url('/static/imagens/fundoQuadriculado.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-
+footer>form{
+    padding-top: 5%;
+}
 header{
     display: flex;
     height: 100vh;
@@ -53,7 +61,7 @@ h4{
     font-family: 'Slabo', serif;
 }
 
-.sobre{
+.sobre, #formacao{
     margin: 16px;
     padding: 22px;
     text-align: justify;
