@@ -36,7 +36,7 @@ E então:
 - Depois front-end, usando html e css, dentro de um template 🔫
 - Olhei alguns projetos no behance para me inspirar.
 
-# Visualizar banco de dados
+# Visualizar banco de dados sem o Django-Admin
 
 Com o ambiente virtual ativo vá no terminal e use os seguintes comandos:
 
@@ -45,6 +45,10 @@ Com o ambiente virtual ativo vá no terminal e use os seguintes comandos:
 - contato = Contato.objects.all()
 - print(contato)
 
+# Visualizar banco de dados com Django-Admin
+
+- admi
+- admi
 # Future Code
 
 - Melhorar front-end
