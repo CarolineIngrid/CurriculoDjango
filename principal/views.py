@@ -1,7 +1,9 @@
 from django.shortcuts import render
 from .forms import ContatoForm
 from .models import Contato
+from django.views.decorators.csrf import csrf_protect
 
+@csrf_protect
 def Info(request):
     if request.method == "GET":
         form = ContatoForm()

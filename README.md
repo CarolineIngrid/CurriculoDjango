@@ -47,5 +47,4 @@ Com o ambiente virtual ativo vá no terminal e use os seguintes comandos:
 
 # Future Code
 
-- Configurar DJANGO-ADMIN
 - Melhorar front-end
