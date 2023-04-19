@@ -24,11 +24,16 @@ aside{
 .sobre{
     display: flex;
 }
+#redes_sociais{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 footer{
     padding-top: 4%;
     text-align: center;
-    height: 30vh;
+    height: 40vh;
     background-image: url('/static/imagens/fundoQuadriculado.jpg');
     background-repeat: no-repeat;
     background-position: center;

@@ -28,6 +28,11 @@
                     como a aplicação de cupons personalidados por API Mock usando GeoLocalização, mudanças em checkout, home e etc.
                     Sempre lidei com pessoas, muitos me consideram, focada, calma e persistente, sempre com vontade de aprender pois também sou ambiciosa. 
                 </p>
+                <div>
+                    (11) 98437-9522 | ingridcaroline3012@gmail.com
+                    https://www.linkedin.com/in/ingridcaroline/
+                    https://github.com/CarolineIngrid
+                </div>
             </div>
             <img src="{% static "imagens/bonbon-web-development-1.png" %}"/>
         </div>
@@ -77,12 +82,29 @@
     </aside>
 
         <footer>
-            <h3>ENTRE EM CONTATO</h3>
+            <h3>ENTRE EM CONTATO PELO FORMS OU REDES SOCIAIS </h3>
                 <form action="." method="POST">
                     {% csrf_token %}
                     {{ form }}
                     <button type="submit" value="Salvar" id="buttonForm">Enviar</button>
                 </form>  
+
+                <div id="redes_sociais">
+
+                    <div>
+               
+                        <a href="https://github.com/CarolineIngrid" target="_blank">  <img src="{% static "imagens/icons8-github-24.png" %}" alt="github"> </a>
+                    </div>
+        
+                    <div>
+                        <a href="https://www.linkedin.com/in/ingridcaroline/" target="_blank">  <img src="{% static "imagens/icons8-linkedin-26.png" %}" alt="imagem-linkedin"> </a>
+                    </div>
+        
+                    <div>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ingridcaroline3012@gmail.com" target="_blank"> <img src="{% static "imagens/icons8-gmail-32.png" %}" alt="imagem-gmail"> </a>
+                    </div>
+                </div>
+            
         </footer>
 
     <script src="{% static 'js/script.js' %}"></script>
